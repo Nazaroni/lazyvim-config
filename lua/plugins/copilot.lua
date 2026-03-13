@@ -38,14 +38,6 @@ return {
         mode = { "i" },
         desc = "Copilot Prev Suggestion",
       },
-      {
-        "<M-\\>",
-        function()
-          require("copilot.suggestion").dismiss()
-        end,
-        mode = { "i" },
-        desc = "Copilot Dismiss Suggestion",
-      },
     },
   },
 }
