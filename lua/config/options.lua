@@ -4,7 +4,7 @@
 
 vim.g.lazyvim_python_ruff = "ruff"
 
--- Use PowerShell on Windows
+-- NOTE: == Use PowerShell on Windows == --
 local os_info = require("get-os-info")
 
 if os_info.get_os_type() == "windows" then
